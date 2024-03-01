@@ -1,0 +1,19 @@
+.mainWrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    padding: 50px;
+    height: max-content;
+    background-color: rgb(157, 207, 253);
+    width: 95%;
+    bottom: 0;
+    left: 0;
+  }
+.leftFooter{
+    display: flex;
+    justify-content: flex-start;
+}
+.rightFooter{
+    display: flex;
+    justify-content: flex-end;
+}
